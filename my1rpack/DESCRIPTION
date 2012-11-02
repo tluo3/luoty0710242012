@@ -1,9 +1,9 @@
-Package:my1rpack
+Package: my1rpack
 Type: Package
-Title:my1rpack
+Title: My 1st package
 Version: 1.0
-Date: 2012-11-01
-Author:Tianyu Luo	
-Maintainer:Tianyu Luo
-Description:The package can generate Latex file to plot a function and provide a dataset grouping medals according to country.
+Date: 2012-10-30
+Author: Tianyu Luo
+Maintainer: Tianyu Luo <tluo3@jhu.edu>
+Description: my 1st package to draw function images and data tables
 License: GPL-3

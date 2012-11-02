@@ -31,12 +31,11 @@ The boolean value to decide whether to complie the Latex document or not.Please 
 }
 
 \value{
-The documentation returned is a Latex file, or a Latex file and a pdf file(decided by the value of compile)
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+When compile==0
+  \item{Filename.tex}{It is a Latex file which can generate a function plot}
+When compile==1
+  \item{Filename.tex}{It is a Latex file which can generate a function plot}
+  \item{Filename.pdf}{It is a pdf file of the function plot}.
 }
 \author{
 Tianyu Luo
@@ -46,9 +45,11 @@ Tianyu Luo
 %}
 \examples{
 ##It only generate Latex files
+require(tikzDevice)
 problem1('bmw1Series',dnorm,c(-5,5),10,0)
 
 ##It will generate both Latex and pdf files
+require(tikzDevice)
 problem1('bmw2Series',dnorm,c(-5,5),10,1)
 }
 
