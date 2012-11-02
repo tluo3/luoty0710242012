@@ -1,5 +1,5 @@
 \name{my1rpack}
-\alias{-package}
+\alias{my1rpack-package}
 \docType{package}
 \title{my1rpack}
 \description{The package can generate Latex file to plot a function and provide a dataset grouping medals according to country. }
