@@ -1,5 +1,5 @@
 \name{problem2}
-\alias{problem2}
+\alias{output}
 \docType{data}
 \title{Problem2}
 \description{It is a data table of medals won by each country}

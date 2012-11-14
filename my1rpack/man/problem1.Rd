@@ -25,7 +25,7 @@ The desired range of x value.
   \item{nsample}{
 The size of the sample points a user wanted. The larger this number is, the more smoothier the plot is.
 }
-  \item{comiple}{
+  \item{compile}{
 The boolean value to decide whether to complie the Latex document or not.Please enter False/0 or True/1.
 }
 }

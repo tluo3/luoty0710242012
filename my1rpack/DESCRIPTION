@@ -3,6 +3,7 @@ Type: Package
 Title: My 1st package
 Version: 1.0
 Date: 2012-10-30
+Depends:tikzDevice
 Author: Tianyu Luo
 Maintainer: Tianyu Luo <tluo3@jhu.edu>
 Description: my 1st package to draw function images and data tables
